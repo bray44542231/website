@@ -1,0 +1,405 @@
+a {
+    color: black;
+    text-decoration: none;
+    /* padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px; */
+  }
+
+p {
+    text-align: center;
+}
+
+.rightTop {
+    width: 100%;
+    /* background-color: aqua; */
+    height: auto;
+    margin-bottom: 70px;
+}
+
+.leftTop {
+    width: 100%;
+    /* background-color: blueviolet; */
+    height: auto;
+}
+
+.profileName {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+
+    
+}
+
+.divnavbar {
+    width: 100%;
+    height: 10vw;
+    margin-bottom: 0px;
+    
+
+}
+
+.navbar p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif; /* Cool font */
+}
+
+.navbar {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 100;  /* Bold for clarity */
+    display: flex;
+    padding: 20px;
+    padding-top: 0px;
+    /* background-color: #252525; */
+    
+}
+
+.ul-nav a:hover {
+    color: #000;
+    color: white;
+
+}
+.ul-nav {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centers the list items horizontally */
+    width: 100%; /* Ensures the ul takes up the full width */
+}
+  
+.li-nav {
+    margin-right: 0px;
+    margin-top: 15px;
+
+}
+
+.Navleft {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif; /* Cool font */
+}
+
+.Navcenter {
+    text-align: center;
+    flex-grow: 2; /* Let this section take more space */
+    align-items: flex-start; /* Align contact section to the top */
+    padding-top: 5px; /* Add top padding to move the contact info up */
+    margin-bottom: 30px; /* Adjust margin to move section up */
+}
+
+.Navright {
+    display: flex;
+    justify-content: flex-end; /* Aligns socials to the right */
+    align-items: center;
+    flex-grow: 0; /* Only takes space for the social icons */
+    margin-right: 30px;
+}
+/* .ul-socials {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+} */
+
+/* .li-socials {
+    margin-right: 5px;
+    margin-top: 10px
+} */
+
+.buttonA {
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    padding: 8px 12px;
+    color: #333; /* Ensure text is always visible */
+    transition: color 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.buttonA::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.buttonA:hover {
+    color: #333; /* Ensure it doesn’t change to white */
+}
+
+.buttonA:hover::after {
+    transform: scaleX(1);
+}
+
+/* .buttonA {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    padding: 8px 12px;
+    color: #333;
+    transition: color 0.3s ease;
+} */
+
+/* .buttonA::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    color: black;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+} */
+
+/* .buttonA:hover::after {
+    transform: scaleX(1);
+} */
+
+.socialsA {
+    text-decoration: none;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.ul-socials a:hover {
+    color: white;
+}
+.instagram-img {
+    width: 25px;
+    height: 25px;
+    padding: 0px;
+
+}
+
+.facebook-img {
+    width: 25px;
+    height: 25px;
+    
+}
+
+
+
+.profile {
+    width: 100%;              /* Full width */
+    height: auto;             /* Auto height */
+    display: flex;
+    justify-content: center;  /* Horizontally centers image */
+    align-items: center;      /* Vertically centers image */
+
+    
+  }
+  
+  .profile img {
+    width: 100%;               /* Adjust size based on viewport width */
+    max-width: 2000px;          /* Prevent it from getting too large */
+    height: auto;              /* Maintain aspect ratio */
+    aspect-ratio: 1 / 1;       /* Ensures width and height remain equal */
+    object-fit: cover;         /* Prevents distortion */
+    border-radius: 50%;        /* Keeps the image circular */
+}
+
+/* .skillsAndAchievements {
+    
+} */
+
+.right {
+    width: 40%;
+    height: auto;
+}
+
+.left {
+    width: 55%;
+    height: auto;
+    /* background-color: blue; */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.story {
+    text-align: center;
+}
+
+
+.ul-midbuttons {
+    list-style-type: none; 
+    padding: 0;
+    gap: 20px;
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: auto;
+    justify-content: center;
+    
+    
+}
+
+.ul-midbuttons a:hover {
+    background-color: #252525;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+
+.li-midbuttons a {
+    border: 2px solid black; /* Adds a border */
+    padding: 10px 20px; /* Adjusts padding for spacing */
+    margin: 5px; /* Adds spacing between buttons */
+    border-radius: 5px; /* Rounds the corners */
+    /* background-color: lightgray; Optional background */
+}
+
+.ul-skills {
+    list-style-type: none;
+}
+
+.ul-profile {
+    list-style-type: none;
+    margin-left: auto;
+}
+
+
+.informationContainer {
+    width: 80%;
+    margin-left: auto;
+    margin-top: 80px;
+}
+
+
+.aboutme {
+     font-size: 30px;
+     margin-top: 200px;
+}
+
+
+.learnmore {
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically (if height is set) */
+    list-style: none; /* Removes bullet points */
+    padding: 0;
+    margin: 0 auto; /* Centers the ul itself */
+    width: 100%; /* Ensures full width */
+    text-align: center;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100%;
+    font-family: 'Arial', sans-serif; /* Clean, readable font */
+    background-color: white; /* White background */
+    color: black; /* Black text */
+}
+
+/* Sticky Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Increase padding for more space */
+    background-color: white; /* White background */
+    color: black; /* Black text */
+    font-size: 16px;
+    width: 100%; /* Use 100% width to prevent overflow */
+    border-top: 1px solid #ddd; /* Light border for separation */
+    height: 100px; /* Set the desired height */
+    box-sizing: border-box; /* Ensures padding is included in the height */
+    overflow: hidden; /* Prevents any unwanted scrolling */
+}
+
+/* Sections inside footer */
+.footerLeft {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif; /* Cool font */
+}
+
+.footerCenter {
+    text-align: center;
+    flex-grow: 2; /* Let this section take more space */
+    align-items: flex-start; /* Align contact section to the top */
+    padding-top: 5px; /* Add top padding to move the contact info up */
+    margin-bottom: 30px; /* Adjust margin to move section up */
+}
+
+.ul-footer {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 0 0;
+}
+
+.ul-footer li {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* Socials section */
+.footerRight {
+    display: flex;
+    justify-content: flex-end; /* Aligns socials to the right */
+    align-items: center;
+    flex-grow: 0; /* Only takes space for the social icons */
+}
+
+.ul-socials {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.li-socials {
+    display: flex;
+    align-items: center;
+}
+
+.li-socials img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.li-socials img:hover {
+    transform: scale(1.2);
+}
+
+/* Ensuring footer stays at the bottom */
+#page-container {
+    position: relative;
+    min-height: 100vh; /* Full height of the viewport */
+    display: flex;
+    flex-direction: column;
+}
+
+#content-wrap {
+    flex-grow: 1; /* This allows the content to take up the remaining space */
+    padding-bottom: 100px; /* Ensures content is not hidden under the footer */
+}
